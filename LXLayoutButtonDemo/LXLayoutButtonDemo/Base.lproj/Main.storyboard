@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YO5-sc-teX">
+                                <rect key="frame" x="6" y="60" width="100" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="ui7-To-hYi"/>
+                                    <constraint firstAttribute="height" constant="40" id="ymR-Lw-Jae"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="布局效果">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7f-ok-OCk">
+                                <rect key="frame" x="16" y="160" width="100" height="70"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="0wt-NL-k1c"/>
+                                    <constraint firstAttribute="width" constant="100" id="taM-2Y-qSq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="布局效果">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h41-in-aOv">
+                                <rect key="frame" x="214" y="60" width="100" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="GGF-mv-s3y"/>
+                                    <constraint firstAttribute="height" constant="40" id="o2e-Sa-Oay"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="布局效果">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sc5-Nw-uuE">
+                                <rect key="frame" x="254" y="160" width="50" height="70"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="0bc-eS-UQv"/>
+                                    <constraint firstAttribute="height" constant="70" id="xU9-Ho-WuL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <state key="normal" title="布局效果">
+                                    <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qVV-7y-BC5">
+                                <rect key="frame" x="121" y="160" width="100" height="70"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="默认效果" image="test_nor">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="test_hl"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9GD-HQ-ik1">
+                                <rect key="frame" x="111" y="60" width="100" height="40"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.30196078430000001" green="0.56078431370000004" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="默认效果" image="test_nor">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted" image="test_hl"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qVV-7y-BC5" firstAttribute="top" secondItem="q7f-ok-OCk" secondAttribute="top" id="1pT-01-Hwe"/>
+                            <constraint firstItem="Sc5-Nw-uuE" firstAttribute="top" secondItem="h41-in-aOv" secondAttribute="bottom" constant="60" id="CXu-SH-hbK"/>
+                            <constraint firstItem="q7f-ok-OCk" firstAttribute="top" secondItem="YO5-sc-teX" secondAttribute="bottom" constant="60" id="MSj-hg-7AN"/>
+                            <constraint firstItem="9GD-HQ-ik1" firstAttribute="width" secondItem="YO5-sc-teX" secondAttribute="width" id="R2y-sf-Zet"/>
+                            <constraint firstItem="qVV-7y-BC5" firstAttribute="leading" secondItem="q7f-ok-OCk" secondAttribute="trailing" constant="5" id="RfX-hU-3VO"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="h41-in-aOv" secondAttribute="trailing" constant="-10" id="V9L-r1-nEf"/>
+                            <constraint firstItem="h41-in-aOv" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="ZdD-9a-0KQ"/>
+                            <constraint firstItem="9GD-HQ-ik1" firstAttribute="leading" secondItem="YO5-sc-teX" secondAttribute="trailing" constant="5" id="Zz1-fr-Rj4"/>
+                            <constraint firstItem="qVV-7y-BC5" firstAttribute="width" secondItem="q7f-ok-OCk" secondAttribute="width" id="dWA-R3-ZCh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Sc5-Nw-uuE" secondAttribute="trailing" id="fEc-IS-6gr"/>
+                            <constraint firstItem="9GD-HQ-ik1" firstAttribute="height" secondItem="YO5-sc-teX" secondAttribute="height" id="gzf-Go-zu0"/>
+                            <constraint firstItem="9GD-HQ-ik1" firstAttribute="top" secondItem="YO5-sc-teX" secondAttribute="top" id="hHc-oe-PgK"/>
+                            <constraint firstItem="qVV-7y-BC5" firstAttribute="height" secondItem="q7f-ok-OCk" secondAttribute="height" id="m6F-Tp-cE1"/>
+                            <constraint firstItem="YO5-sc-teX" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="40" id="mV9-MA-ENU"/>
+                            <constraint firstItem="q7f-ok-OCk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="tjI-Co-JMs"/>
+                            <constraint firstItem="YO5-sc-teX" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-10" id="vnJ-07-1Lq"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="button1" destination="YO5-sc-teX" id="ZMA-8o-g7V"/>
+                        <outlet property="button2" destination="h41-in-aOv" id="Fgf-Hs-z1V"/>
+                        <outlet property="button3" destination="q7f-ok-OCk" id="LBI-cr-W6w"/>
+                        <outlet property="button4" destination="Sc5-Nw-uuE" id="0Zp-dC-cO7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="test_hl" width="30" height="30"/>
+        <image name="test_nor" width="30" height="30"/>
+    </resources>
+</document>
