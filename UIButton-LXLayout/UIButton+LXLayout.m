@@ -53,9 +53,9 @@ sizeWithFont:font constrainedToSize:maxSize lineBreakMode:mode] : CGSizeZero;
             default:
                 break;
         }
-    
+        
     }
-
+    
 }
 
 #pragma mark - Public method
@@ -103,11 +103,10 @@ sizeWithFont:font constrainedToSize:maxSize lineBreakMode:mode] : CGSizeZero;
     CGSize labelSize = LX_MULTILINE_TEXTSIZE(self.titleLabel.text, self.titleLabel.font, maxSize, NSLineBreakByWordWrapping);
     CGFloat imageViewX = (CGRectGetWidth(self.frame) - labelSize.width - imageWidth - self.lx_subMargin) / 2.0;
     CGFloat imageViewY = (CGRectGetHeight(self.frame) - imageHeight) / 2.0;
+    self.imageView.frame = CGRectMake(imageViewX, imageViewY, imageWidth, imageHeight);
     
     CGFloat labelX = CGRectGetMaxX(self.imageView.frame) + self.lx_subMargin;
     CGFloat labelY = (CGRectGetHeight(self.frame) - labelSize.height) / 2.0;
-    
-    self.imageView.frame = CGRectMake(imageViewX, imageViewY, imageWidth, imageHeight);
     self.titleLabel.frame = CGRectMake(labelX, labelY, labelSize.width, labelSize.height);
 }
 
@@ -122,11 +121,10 @@ sizeWithFont:font constrainedToSize:maxSize lineBreakMode:mode] : CGSizeZero;
     CGSize labelSize = LX_MULTILINE_TEXTSIZE(self.titleLabel.text, self.titleLabel.font, maxSize, NSLineBreakByWordWrapping);
     CGFloat labelX = (CGRectGetWidth(self.frame) - labelSize.width - imageWidth - self.lx_subMargin) / 2.0;
     CGFloat labelY = (CGRectGetHeight(self.frame) - labelSize.height) / 2.0;
+    self.titleLabel.frame = CGRectMake(labelX, labelY, labelSize.width, labelSize.height);
     
     CGFloat imageViewX = CGRectGetMaxX(self.titleLabel.frame) + self.lx_subMargin;
     CGFloat imageViewY = (CGRectGetHeight(self.frame) - imageHeight) / 2.0;
-    
-    self.titleLabel.frame = CGRectMake(labelX, labelY, labelSize.width, labelSize.height);
     self.imageView.frame = CGRectMake(imageViewX, imageViewY, imageWidth, imageHeight);
     
 }
@@ -139,11 +137,10 @@ sizeWithFont:font constrainedToSize:maxSize lineBreakMode:mode] : CGSizeZero;
     
     CGFloat imageViewX = (CGRectGetWidth(self.frame) - imageWidth) / 2.0;
     CGFloat imageViewY = (CGRectGetHeight(self.frame) - labelSize.height - imageHeight - self.lx_subMargin) / 2.0;
+    self.imageView.frame = CGRectMake(imageViewX, imageViewY, imageWidth, imageHeight);
     
     CGFloat labelX = (CGRectGetWidth(self.frame) - labelSize.width) / 2.0;
     CGFloat labelY = CGRectGetMaxY(self.imageView.frame) + self.lx_subMargin;
-    
-    self.imageView.frame = CGRectMake(imageViewX, imageViewY, imageWidth, imageHeight);
     self.titleLabel.frame = CGRectMake(labelX, labelY, labelSize.width, labelSize.height);
 }
 
@@ -154,11 +151,10 @@ sizeWithFont:font constrainedToSize:maxSize lineBreakMode:mode] : CGSizeZero;
     CGSize labelSize = LX_MULTILINE_TEXTSIZE(self.titleLabel.text, self.titleLabel.font, CGSizeMake(CGRectGetWidth(self.frame), self.titleLabel.font.lineHeight), NSLineBreakByWordWrapping)
     CGFloat labelX = (CGRectGetWidth(self.frame) - labelSize.width) / 2.0;
     CGFloat labelY =  (CGRectGetHeight(self.frame) - labelSize.height - imageHeight - self.lx_subMargin) / 2.0;
+    self.titleLabel.frame = CGRectMake(labelX, labelY, labelSize.width, labelSize.height);
     
     CGFloat imageViewX = (CGRectGetWidth(self.frame) - imageWidth) / 2.0;
     CGFloat imageViewY = CGRectGetMaxY(self.titleLabel.frame) + self.lx_subMargin;
-    
-    self.titleLabel.frame = CGRectMake(labelX, labelY, labelSize.width, labelSize.height);
     self.imageView.frame = CGRectMake(imageViewX, imageViewY, imageWidth, imageHeight);
 }
 
