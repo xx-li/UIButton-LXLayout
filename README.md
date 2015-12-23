@@ -5,7 +5,7 @@
 <img src="./layout.png"/>
 
 ###提供方法
-Cocoapods使用：`pod 'UIButton-LXLayout', '~> 0.1'`
+Cocoapods使用：`pod 'UIButton-LXLayout', '~> 0.2'`
 
 + 提供定制UIButton内部的imageView和titleLabel的位置的方法：
 
